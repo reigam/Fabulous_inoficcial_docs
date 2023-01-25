@@ -1,0 +1,93 @@
+# Meta Data for SEO
+
+## Homepage
+title = "Fabulous"
+titleSeparator = "-"
+titleAddition = "F# Functional App Development, using declarative dynamic UI"
+description = "Fabulous allows you to combine the power of functional programming and the simple Model-View-Update architecture to build any kind of mobile and desktop applications with an expressive, dynamic and clean UI DSL."
+
+## Documentation
+# docsVersion = "0.3"
+
+## Open Graph
+images = ["fabulous.png"]
+ogLocale = "en_US"
+domainTLD = "timothelariviere.com"
+titleHome = "Fabulous"
+
+## Twitter Cards
+twitterSite = "@Tim_Lariviere"
+twitterCreator = "@Tim_Lariviere"
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "Fabulous"
+schemaAuthor = "Timothé Larivière"
+schemaAuthorTwitter = "https://twitter.com/Tim_Lariviere"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/timlariviere/"
+schemaAuthorGitHub = "https://github.com/TimLariviere"
+schemaLocale = "en-US"
+schemaLogo = "logo-fabulous.png"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "fabulous.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaTwitter = "https://twitter.com/Tim_Lariviere"
+schemaLinkedIn = ""
+schemaGitHub = "https://github.com/fsprojects/Fabulous"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "300"
+
+# Footer
+footer = "Powered by <a class=\"text-muted\" href=\"https://pages.github.com\">GitHub Pages</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+
+# Feed
+copyRight = "Copyright (c) 2018-2022 Fabulous contributors"
+
+# Alert
+alert = false
+alertDismissable = true
+
+# Edit Page
+# repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
+repoHost = "GitHub"
+#repoHost = "Gitea"
+docsRepo = "https://github.com/fsprojects/Fabulous"
+docsRepoBranch = "main"
+docsRepoSubPath = ""
+editPage = true
+lastMod = false
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = false
+  highLight = true
+  kaTex = false
+  multilingualMode = false
+  docsVersioning = false
+  fullWidth = false
+
+[menu]
+  [menu.section]
+    auto = true
+    collapsibleSidebar = true
