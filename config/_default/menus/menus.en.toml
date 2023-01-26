@@ -21,7 +21,7 @@
 
 [[main]]
   name = "XamarinForms"
-  url = "/xf/v2/docs"
+  url = "/xamarinforms/v2/docs/"
   # url = "https://docs.fabulous.dev"
   weight = 40
   parent = "Docs"
