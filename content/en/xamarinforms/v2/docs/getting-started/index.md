@@ -8,8 +8,8 @@ lastmod: 2020-10-06T08:48:57+00:00
 draft: false
 images: []
 menu:
-  docs:
-    parent: "v2"
+  xamarinforms:
+    parent: "XamarinForms"
 weight: 10
 toc: true
 ---
@@ -22,7 +22,7 @@ You will need to install a few different tools to work with Fabulous:
 - A compatible IDE:
   - Visual Studio 2021 or newer ([link](https://visualstudio.microsoft.com/vs/))
   - Visual Studio 2019 for Mac or newer ([link](https://visualstudio.microsoft.com/vs/mac/))
-  - JetBrains Rider ([link](https://www.jetbrains.com/rider/) - available for Windows and macOS)  
+  - JetBrains Rider ([link](https://www.jetbrains.com/rider/) - available for Windows and macOS)
 - During installation, you will be asked to choose the workloads you want. Be sure to select the mobile development workload and F#.
 
 _Note: if you choose JetBrains Rider, you will also need to install either Visual Studio or Visual Studio Mac since Rider won't install those workloads by itself._
@@ -31,7 +31,7 @@ _Note: if you choose JetBrains Rider, you will also need to install either Visua
 
 ### 1. Download the latest templates
 
-First, we need to install the latest templates for Fabulous. This is done via command line.  
+First, we need to install the latest templates for Fabulous. This is done via command line.
 Open a terminal in the folder where you want to store the new solution, and type the following command:
 
 ```sh
@@ -91,14 +91,14 @@ _Credits: Beginnnig Elm - https://elmprogramming.com_
 
 MVU is a simple state machine for making reliable UI applications.
 
-We have a `Model` storing the state of the application.  
-This state is immutable, it can only be mutated during the evaluation of the `update` function.  
+We have a `Model` storing the state of the application.
+This state is immutable, it can only be mutated during the evaluation of the `update` function.
 This is done to help prevent side effects from making your app unstable.
 
-To trigger an update, we have `Msg` (messages) that are dispatched from the user interface or from internal subscriptions (like a timer).  
+To trigger an update, we have `Msg` (messages) that are dispatched from the user interface or from internal subscriptions (like a timer).
 Upon dispatch, Fabulous will call the `update` function to know how the state will change.
 
-Everytime the state changes, Fabulous will also call the `view` function.  
+Everytime the state changes, Fabulous will also call the `view` function.
 This function returns a virtual view (much like Virtual Dom if you're used to React) that Fabulous will compare with the current UI to determine which changes to make. Thus we can understand the UI as a function of the state, like shown in this image:
 
 ![UI equals function of state](ui-equals-function-of-state.png)
@@ -137,7 +137,7 @@ let update msg model =
     | Decrement -> { model with Count = model.Count - 1 }
 ```
 
-`view` is a function returning a view description for the current `Model`.  
+`view` is a function returning a view description for the current `Model`.
 You can notice that controls that can be interacted with can dispatch a `Msg`, e.g. `Button("Increment", Increment)`.
 
 ```fs

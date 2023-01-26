@@ -1,13 +1,12 @@
 ---
-id: "v2"
-title : "Version 2"
-description: "Fabulous v2"
+id: "XamarinForms"
+title : "Fabulous.XamarinForms V2"
+description: "Fabulous.XamarinForms v2"
 lead: ""
 date: 2022-03-31T00:00:00+00:00
 lastmod: 2022-03-31T00:00:00+00:00
 draft: false
 images: []
-menu:
-  docs:
-    parent: "Avalonia"
 ---
+
+General informations about XamarinForms here

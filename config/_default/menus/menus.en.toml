@@ -1,37 +1,42 @@
 ## Links on main page
 
 [[main]]
-  name = "Docs"
+  name = "Overview"
   url = "https://docs.fabulous.dev"
 # url = "/docs/1.0/about/"
   weight = 10
 
-[[main]]
-  name = "Fabulous"
-  url = "https://docs.fabulous.dev"
-  weight = 20
-  parent = "Docs"
+# [[main]]
+#   name = "Fabulous"
+#   url = "https://docs.fabulous.dev"
+#   weight = 20
+  # parent = "Docs"
 
 
 [[main]]
-  name = "Fabulous.MauiControls"
+  name = "MauiControls"
   url = "https://docs.fabulous.dev"
   weight = 30
-  parent = "Docs"
+  # parent = "Docs"
 
 [[main]]
   name = "XamarinForms"
   url = "/xamarinforms/v2/docs/"
   # url = "https://docs.fabulous.dev"
   weight = 40
-  parent = "Docs"
+  # parent = "Docs"
 
+# [[xamarinforms]]
+#   name = "XamarinForms"
+#   weight = 10
+#   identifier = "xf"
+#   url = "/xamarinforms/v2/docs/"
 
 [[main]]
   name = "Avalonia"
   url = "https://docs.fabulous.dev"
   weight = 50
-  parent = "Docs"
+  # parent = "Docs"
 
 
 [[social]]
