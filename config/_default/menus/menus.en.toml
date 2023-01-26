@@ -2,8 +2,8 @@
 
 [[main]]
   name = "Overview"
-  url = "https://docs.fabulous.dev"
-# url = "/docs/1.0/about/"
+# url = "https://docs.fabulous.dev"
+  url = "/fabulous/v2/docs/"
   weight = 10
 
 # [[main]]
@@ -14,8 +14,9 @@
 
 
 [[main]]
-  name = "MauiControls"
-  url = "https://docs.fabulous.dev"
+  name = "Maui"
+  # url = "https://docs.fabulous.dev"
+  url = "/maui/v2/docs"
   weight = 30
   # parent = "Docs"
 
@@ -26,15 +27,10 @@
   weight = 40
   # parent = "Docs"
 
-# [[xamarinforms]]
-#   name = "XamarinForms"
-#   weight = 10
-#   identifier = "xf"
-#   url = "/xamarinforms/v2/docs/"
-
 [[main]]
   name = "Avalonia"
-  url = "https://docs.fabulous.dev"
+  # url = "https://docs.fabulous.dev"
+  url = "/avalonia/v2/docs/"
   weight = 50
   # parent = "Docs"
 
