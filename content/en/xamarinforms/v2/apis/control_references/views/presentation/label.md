@@ -1,5 +1,5 @@
 ---
-id: "v2-label"
+id: "xf2-label"
 title: "Label"
 description: ""
 lead: ""
@@ -7,14 +7,14 @@ date: 2022-03-24T00:00:00+00:00
 lastmod: 2022-03-24T00:00:00+00:00
 draft: false
 images: []
-weight: 433
 menu:
-  docs:
-    parent: "controls"
+  xamarinforms:
+    parent: "xf2-apis-cr-views"
+    identifier: "xf2-label"
 toc: true
 ---
 
-**Inheritance:** [Element]({{< ref "element.md" >}}) -> [NavigableElement]({{< ref "../navigable-element.md" >}}) -> [VisualElement]({{< ref "../visual-element.md" >}}) -> [View]({{< ref "../view.md" >}})  
+**Inheritance:** [Element]({{< ref "element.md" >}}) -> [NavigableElement]({{< ref "../../../navigable-element.md" >}}) -> [VisualElement]({{< ref "../../../visual-element.md" >}}) -> [View]({{< ref "../../../view.md" >}})
 **Xamarin.Forms documentation:** Label [API](https://docs.microsoft.com/en-us/dotnet/api/xamarin.forms.label) / [Guide](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/label)
 
 For details on how the control actually works, please refer to the [Xamarin.Forms documentation](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/label).

@@ -8,9 +8,9 @@ lastmod: 2022-06-21T00:00:00+00:00
 draft: false
 images: []
 weight: 401
-menu:
-  xamarinforms:
-    parent: "xf2-apis"
+# menu:
+#   xamarinforms:
+#     parent: "xf2-apis"
 toc: true
 ---
 
