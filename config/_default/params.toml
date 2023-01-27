@@ -91,3 +91,4 @@ lastMod = false
   [menu.section]
     auto = false
     collapsibleSidebar = true
+    # mainSections = ["xamarinforms", "maui"]

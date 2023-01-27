@@ -9,8 +9,8 @@ draft: false
 images: []
 menu:
   xamarinforms:
-    parent: "Overview"
-weight: 20
+    parent: "xf2-intro"
+weight: 020
 toc: true
 ---
 
