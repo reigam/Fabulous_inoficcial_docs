@@ -1,6 +1,6 @@
 # Menu
 
-- Fabulous.Xamarin.Forms
+- Fabulous.MauiControls
   - Introduction
   - Getting Started
 - APIs
@@ -11,34 +11,35 @@
       - FlyoutPage
       - NavigationPage
       - TabbedPage
-      - CarouselPage
-      - TemplatedPage
     - Layouts
-      - Single Content
-        - ContentView
-        - Frame
-        - ScrollView
-        - TemplatedView
-        - ContentPresenter
-      - Multiple Children
-        - StackLayout
-        - Grid
-        - AbsoluteLayout
-        - RelativeLayout
-        - FlexLayout
+      - AbsoluteLayout
+      - BindableLayout
+      - FlexLayout
+      - Grid
+      - HorizontalStackLayout
+      - StackLayout
+      - VerticalStackLayout
     - Views
       - For presentation
+        - BlazorWebView
+        - Border
         - BoxView
-        - Ellipse
-        - Label
-        - Line
+        - Frame
+        - GraphicView
         - Image
+        - Label
         - Map
-        - OpenGLView
-        - Path
-        - Polygon
-        - Polyline
-        - Rectangle
+        - ScrollView
+        - Shapes
+          - Overview
+          - Ellipse
+          - Fill rules
+          - Geometries
+          - Line
+          - Paths
+          - Polygon
+          - Polyline
+          - Rectangle
         - WebView
       - For initiating commands
         - Button
@@ -49,10 +50,10 @@
         - SwipeView
       - For setting values
         - CheckBox
+        - DatePicker
         - Slider
         - Stepper
         - Switch
-        - DatePicker
         - TimePicker
       - For editing text
         - Entry
@@ -67,17 +68,16 @@
         - ListView
         - Picker
         - TableView
+      - ContentView
+      - TwoPaneView
     - Cells
       - TextCell
       - ImageCell
       - SwitchCell
       - EntryCell
+      - ViewCell
 - How To ...
   - Styling
   - Using nightly builds
 - Architecture
-- Learning Resources
 - FAQs
-- Glossary
-- Legacy (V1)
-  - Information about v1

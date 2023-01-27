@@ -41,6 +41,24 @@
   url = "/xamarinforms/v2/docs/introduction/"
 
 [[xamarinforms]]
+  name = "How to ..."
+  weight = 30
+  identifier = "xf2-howto"
+  url = "/xamarinforms/v2/docs/introduction/"
+
+[[xamarinforms]]
+  name = "Architecture"
+  weight = 40
+  identifier = "xf2-architecture"
+  url = "/xamarinforms/v2/docs/introduction/"
+
+[[xamarinforms]]
+  name = "FAQ"
+  weight = 50
+  identifier = "xf2-faq"
+  url = "/xamarinforms/v2/docs/introduction/"
+
+[[xamarinforms]]
   name = "Version 1 (legacy)"
   weight = 110
   identifier = "xf1"
