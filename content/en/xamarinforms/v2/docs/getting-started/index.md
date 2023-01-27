@@ -9,8 +9,8 @@ draft: false
 images: []
 menu:
   xamarinforms:
-    parent: "XamarinForms"
-weight: 10
+    parent: "Overview"
+weight: 20
 toc: true
 ---
 
